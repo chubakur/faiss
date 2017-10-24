@@ -115,7 +115,7 @@ SWIGEXEC=swig
 # python3 -c "import numpy ; print(numpy.get_include())"
 #
 
-PYTHONCFLAGS=-I/usr/local/anaconda3/include/python3.5m/ -I/usr/local/anaconda3/lib/python3.5/site-packages/numpy/core/include
+PYTHONCFLAGS=-I/opt/conda/include/python3.5m/ -I/opt/conda/lib/python3.5/site-packages/numpy/core/include
 
 
 ###########################################################################
