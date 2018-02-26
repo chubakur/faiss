@@ -64,6 +64,7 @@ FAISSSHAREDFLAGS=-shared
 # to fix performance problemes with OpenBLAS 
 
 BLASCFLAGS=-DFINTEGER=int
+BLASLDFLAGS=/usr/lib/libopenblas.so.0 /usr/lib/lapack/liblapack.so.3.0
 
 # This is for Centos:
 # BLASLDFLAGS?=/usr/lib64/libopenblas.so.0
